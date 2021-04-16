@@ -11,6 +11,11 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestAPI", "TestAPI\TestAPI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI-CS", "TestAPI-CS\TestAPI-CS.csproj", "{720E5245-14DF-444C-989C-5679F3989E7F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{336C046D-23F7-4451-BA6B-652F50F331E9}"
+	ProjectSection(SolutionItems) = preProject
+		Credits.txt = Credits.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
