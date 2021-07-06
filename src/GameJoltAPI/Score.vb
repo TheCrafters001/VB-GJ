@@ -1,12 +1,6 @@
 ﻿Imports System.Net
 Imports SignatureGen
 
-''' <summary>
-''' Credit to Jimmy Smith on Stack Overflow,
-''' as this solution uses some of his code.
-''' https://stackoverflow.com/questions/46056316/net-framework-4-vb-net-call-an-api
-''' </summary>
-
 Public Class Score
 
     ''' <summary>
