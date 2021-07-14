@@ -1,6 +1,10 @@
 ﻿Imports System.Net
 Imports SignatureGen
 
+''' <summary>
+''' Sessions are used to tell Game Jolt when a user is playing a game, and what state they are in while playing (active or idle).
+''' </summary>
+
 Public Class Sessions
 
     ''' <summary>

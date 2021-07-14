@@ -11,9 +11,10 @@
     <AssemblyName>TestAPI-APP</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -84,6 +85,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -123,6 +125,10 @@
     <ProjectReference Include="..\GameJoltAPI\GameJoltAPI.vbproj">
       <Project>{ed96effd-8fca-4455-8b00-cf5c11efab1d}</Project>
       <Name>GameJoltAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SignatureGen\SignatureGen.vbproj">
+      <Project>{463f9a52-cf65-4df4-87ad-927a0a1988a2}</Project>
+      <Name>SignatureGen</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

@@ -1,6 +1,12 @@
 ﻿Imports System.Net
 Imports SignatureGen
 
+''' <summary>
+''' Game Jolt supports multiple online score tables, or scoreboards, per game. You are able to, for example, have a score table for each level in your game, or a table for different scoring metrics. Gamers will keep coming back to try to achieve the highest scores for your game.
+'''
+''' With multiple formatting And sorting options, the system Is quite flexible. You are also able To include extra data With Each score. If there Is other data associated With the score such As time played, coins collected, etc., you should definitely include it. It will be helpful In cases where you believe a gamer has illegitimately achieved a high score.
+''' </summary>
+
 Public Class Score
 
     ''' <summary>
